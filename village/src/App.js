@@ -19,7 +19,7 @@ class App extends Component {
     // console.log("App.js componentDidMount()");
     axios
       .get('http://localhost:3333/smurfs')
-      .then(response => console.log(response.data))
+      .then(response => { this.setState({ smurfs: response.data }); })
       .catch(err => console.log(err));
   }
 
