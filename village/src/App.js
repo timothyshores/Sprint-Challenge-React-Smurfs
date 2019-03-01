@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, NavLink, withRouter } from "react-router-dom";
+import { Route, NavLink } from "react-router-dom";
 import axios from 'axios';
 import Navigation from './components/Navigation';
 import SmurfForm from './components/SmurfForm';

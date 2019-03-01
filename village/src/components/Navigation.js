@@ -1,10 +1,6 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
 
 class Navigation extends React.Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         return (
             <div>
